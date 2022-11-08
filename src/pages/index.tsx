@@ -44,15 +44,14 @@ export default function Home() {
           Após criar seu bolão, você receberá um código único que poderá usar para convidar outras pessoas 🚀
         </p>
         
-        <div>
+        <div className='mt-10 pt-10 border-t border-gray-600 flex items-center justify-between text-gray-100'>
 
-          <div>
+          <div className='flex items-center gap-6'>
 
             <Image src={iconCheck} alt=""/>
 
-            <div>
-
-              <span>+2.034</span>
+            <div className='flex flex-col'>
+              <span className='font-bold text-2xl'>+2.034</span>
 
               <span>Bolões criados</span>
 
@@ -60,20 +59,21 @@ export default function Home() {
 
           </div>
 
-          <div>
+          <div className='w-px h-14 bg-gray-600'/>
+ 
+          <div className='flex items-center gap-6'>
 
             <Image src={iconCheck} alt=""/>
 
-            <div>
-
-              <span>+192.847</span>
+            <div className='flex flex-col'>
+              <span className='font-bold text-2xl'>+192.847</span>
 
               <span>Palpites enviados</span>
 
             </div>
 
           </div>
-
+ 
         </div>
 
       </main>
